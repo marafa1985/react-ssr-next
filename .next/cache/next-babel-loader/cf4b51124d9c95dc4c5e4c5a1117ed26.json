@@ -1,0 +1,1 @@
+{"ast":null,"code":"import styled from \"styled-components\";\nexport default styled.p`\nfont-size: .9em;\ncolor: #777;\ntext-overflow: ellipsis;\nwidth: 80vw;\nwhite-space: ${props => props.theme && props.theme.fulltext ? 'none' : 'nowrap'};\noverflow: hidden;\n`;","map":null,"metadata":{},"sourceType":"module"}
