@@ -1,1 +1,0 @@
-{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport ThemeContext from '../Context/ThemeContext';\nimport { JobDB } from '../DB/JobDB';\nimport JobList from '../components/JobList';\n\nconst Home = () => __jsx(ThemeContext, null, __jsx(JobList, {\n  jobList: JobDB\n}));\n\nexport default Home;","map":null,"metadata":{},"sourceType":"module"}

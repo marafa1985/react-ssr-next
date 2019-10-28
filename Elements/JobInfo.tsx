@@ -8,7 +8,17 @@ div{
     padding: 20px 25px;
     display: flex;
     flex-direction: column;
-    
+    a{
+        color: #217fb6;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 1.1em;
+        margin-right:15px;
+        &:hover{
+            color: #155275;
+            text-decoration: underline;
+        }
+    }
     h1{
         font-family:sans-serif;
         font-size: 1.7em;
