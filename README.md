@@ -2,7 +2,9 @@
 
 ## Setup
 copy repo: `git clone https://github.com/marafa1985/react-ssr-next.git`
+
 cmd: `cd react-ssr-next`
+
 run project: `docker-compose up -d`
 
 
